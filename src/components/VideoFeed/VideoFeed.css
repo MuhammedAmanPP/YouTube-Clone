@@ -1,0 +1,96 @@
+.video-feed{
+    width: 80%;
+    height: 100vh;
+}
+.video-feed .video-card{
+  padding-left: 7%;
+}
+.video-feed .video-card iframe{
+    width: 97%;
+    height: fit-content;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 70vh;
+}
+.like-dislike-row{
+    width: 94%;
+}
+.chanel-name{
+    width: auto;
+    margin-top: 15px;
+}
+.chanel-name a{
+    background: #000;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px 17px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.chanel-name button{
+    font-family: sans-serif;
+    background: #000;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 13px;
+}
+.like-count{
+    flex: 2;
+    justify-content: end;
+    gap: 20px;
+}
+.subscribers-and-chanelname{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 18px;
+    
+}
+.subscribers-and-chanelname h3{
+    margin-top: 0 !important;
+}
+.chanel-name img{
+    width: 40px;
+    border-radius: 50%;
+}
+.like p{
+    margin-left: 8px;
+    margin-top: 4px;
+    padding-right: 13px;
+    border-right:2px solid #ccc ;
+}
+.like{
+    background-color: #dbdbdb;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.like-count  img{
+    width: 25px;
+    margin-left: 15px;
+}
+.dislike{
+    margin-top: 6px;
+}
+.share{
+    gap: 10px;
+    background-color: #dbdbdb;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.share p{
+    margin-top: 3px;
+}
+.video-card h3{
+    font-family: sans-serif;
+    margin-top: 8px;
+}

@@ -1,0 +1,23 @@
+.video-side-card{
+    padding-top: 10px;
+}
+.video-side-bar{
+    width: 25%;
+}
+.video-side-card img{
+    width: 45%;
+    border-radius: 10px;
+}
+.side-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+}
+.side-card-details h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.side-card-details p{
+    font-size: 14px;
+}
