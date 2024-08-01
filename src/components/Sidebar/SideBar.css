@@ -7,10 +7,16 @@
     gap: 25px;
     margin-bottom: 18px;
     cursor: pointer;
+
 }
 .side-content img{
     width: 25px;
     
+}
+.side-content p, .subscription-details p, .subscription h3{
+    @media screen and (max-width:1000px) {
+        display: none;
+    }
 }
 /* .side-content a{
     display: flex;
